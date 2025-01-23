@@ -22,3 +22,6 @@ p{
     font-weight: bolder;
 }
 
+.navbar bg-body-tertiary{
+    background-color: aliceblue;
+}
