@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
 
-    <link rel="stylesheet" href="./css/styles.css">
+    
     <!--link rel="stylesheet" href="./css/bootstrap.css"-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
-   <header class="nav-header">
-    <nav class="navbar bg-body-tertiary">
+   <header>
+    <nav class="navbar">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img   src="./images/logo.png" alt="Gym Logo">
+            <img src="./images/logo.png" alt="Gym Logo">
 
             <nav class="navbar navbar-expand-lg bg-body-tertiary" >
                 <div class="container-fluid">
@@ -66,8 +68,8 @@
   <section>
     <h2>Trainers</h2>
   </section>
-  <section class="row">
-    <div class="col" class="container-fluid">
+  <section class="row" >
+    <div class="col" class="container-fluid" class="trainer-info">
         <img src="./images/trainer1.jpg" class="d-block w-100" alt="Trainer1" width="25" height="600">
         <p> Meet Jenna!  With a passion for fitness and a dedication to helping others acheive their goals, Jenna specializes in creating personalized training programs tailored to individual needs.  Whether you're looking to build strength, improve endurance, or sculpt your ideal physique, Jenna is here to guide you every step of the way!</p>
     </div>
@@ -122,10 +124,10 @@
     
       </div>
       <div class="card-body col-sm-3" >
-        <h5 class="card-title">Schedule a Tour!</h5>
-        <p class="card-text">Click the link below to see availability.</p>
+        <h4 class="card-title">Schedule a Tour!</h4>
+        <h5 class="card-text">Click the link below to see availability.</h5>
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Calendar
+           Calendar
         </button>
       </div>
     </div>
