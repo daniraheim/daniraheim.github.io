@@ -33,3 +33,7 @@ body{
 .card-body{
     background-color: palevioletred;
 }
+
+.calendar {
+    text-align: center;
+}
