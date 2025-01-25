@@ -9,20 +9,23 @@
 
 </head>
 <body>
-    <form>
+    <form action="https://formspree.io/f/xdkakddb" method="POST">
     <h1>Join Now!</h1>
     <div class="form">
         <label>First Name:
             <input type="text" name="first" placeholder="First Name" required>
         </label>
         <br>
+        <br>
         <label>Last Name:
             <input type="text" name="last" placeholder="Last Name" required>
         </label>
         <br>
+        <br>
         <label>Email:
             <input type="email" name="email" placeholder="Email Address" required>
         </label>
+        <br>
         <br>
         <label>Select Your Gender: (optional)</label>
         <br>
@@ -32,16 +35,49 @@
         <br>
         <input type="radio" name="radio" value="Other">Other
         <br>
+        <br>
         <label>Date of Birth: 
             <input type="date" name="date" placeholder="01-25-85"> 
         </label>
         <br>
+        <br>
         <label>
             Phone Number:
-            <input type="tel" name="phone" placeholder="123-456-7890" required>
+            <input type="tel" name="phone" placeholder="817-123-0000" required>
         </label>
         <br>
         <br>
+        <label>Membership Type</label>
+        <br>
+        <select> 
+            <option value="">Yearly</option>
+            <option value="">Quarterly</option>
+            <option selected value="">Monthly</option>
+        </select>
+        <br>
+        <br>
+        <label>Current Fitness Level</label>
+        <br>
+        <label>Beginner
+            <input type="checkbox" name="membership" value="Beginner" id="Beginner" onclick="checkOnlyOne(this)">
+         </label>
+        <br>
+        <label>Intermediate
+             <input type="checkbox" name="membership" value="Intermediate" id="Intermediate" onclick="checkOnlyOne(this)">
+            </label>
+        <br>    
+        <label>Advanced
+            <input type="checkbox" name="membership" value="Advanced" id="Advanced" onclick="checkOnlyOne(this)"> 
+        </label>
+        <br>
+        <script>
+            function checkOnlyOne(checkbox){
+                const checkboxes = document.querySelectorAll('input[name="membership"]');
+                checkboxes.forEach((box) =>{
+                    if (box !== checkbox) box.checked = false;
+                });
+            }
+        </script>
         <br>
         <label>Emergency Contact Information</label>
         <br>
@@ -60,7 +96,11 @@
             Phone Number:
             <input type="tel" name="phone" placeholder="123-456-7890" required>
         </label>  
+        <br>
+        <br>
+        <input class="register" type="submit" value="Register">
     </div>
 </form>
-</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
