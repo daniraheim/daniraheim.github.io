@@ -35,7 +35,7 @@ body{
     padding: 10px;
 }
 
-p{
+.paragraph {
     font-size: larger;
     font-weight: bolder;
     text-align: center;
@@ -68,6 +68,11 @@ p{
 .register{
     font-size: large;
 }
+
+footer{
+    color: pink;
+}
+
 
 .pricing-area{
     padding: 80px 0;
