@@ -1,4 +1,4 @@
-1. This is my Project1.
+1. My name is Danielle Raheim. This is my Project1.
 
 2. I built a gym website for DaniFlow Studio.  The webpage allows users to see some key features offered by the gym.  It also allows the users to fill out a form to be submitted to join the gym.  There is a page that outlines the pricing as well.  The page allows for users to schedule a tour and locate the gym via a Google Maps link.  Also, the users can check out the social media pages for the gym.
 

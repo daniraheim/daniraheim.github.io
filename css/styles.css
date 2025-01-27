@@ -1,15 +1,15 @@
-
+/* CSS for index HTML */
 
 header{
-    background-color: pink;
-    
+    background-color: pink;  
 }
+
 .navbar-brand{
     font-size: larger;
     color: blueviolet;
     font-weight: bolder;
-    
 }
+
 h1{
     text-align: center;
     background-color: pink; 
@@ -17,16 +17,13 @@ h1{
 
 h2{
     text-align: center;
-    background-color: plum;
-    
+    background-color: plum; 
 }
 
 .diet{
     text-align: center;
     background-color: pink;
 }
-
-
 
 body{
     margin-left: auto;
@@ -60,15 +57,6 @@ body{
     margin: 0 auto;
 }
 
-.form{
-    color: pink;
-    font-size: x-large;
-}
-
-.register{
-    font-size: large;
-}
-
 footer{
     color: pink;
     font-size: large;
@@ -81,6 +69,18 @@ ul{
     list-style: none;
 }
 
+/* CSS for Form */
+
+.form{
+    color: pink;
+    font-size: x-large;
+}
+
+.register{
+    font-size: large;
+}
+
+/* CSS for Pricing */
 
 .pricing-area{
     padding: 80px 0;
