@@ -5,7 +5,7 @@ $(document).ready(()=>{
         $("#giphys").empty();
         let userInput = $("#search").val()
         $.ajax({
-            url: `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}=${userInput}&limit=2`
+            url: `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}=${userInput}&limit=30`
         })
         .done((res)=>{ 
             let giphy = res.data;
