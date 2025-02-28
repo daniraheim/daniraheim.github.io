@@ -1,0 +1,10 @@
+#giphys {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#giphys img {
+    max max-height: 200px;
+    margin: 5px;
+}
