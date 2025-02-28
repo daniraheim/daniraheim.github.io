@@ -1,6 +1,4 @@
-
-
-
+    
 $(document).ready(()=>{
     let apiKey = 'HYVVTegN2siClzVYCBH6LKLKKkoyL8ZH&q';
     $("#submit").click(()=>{
@@ -22,4 +20,5 @@ $(document).ready(()=>{
             $("#giphys").append(`<img src="${imageUrl}" alt="giphy image"/>`)
         })          
        }
-})
+})   
+       
