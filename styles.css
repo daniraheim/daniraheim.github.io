@@ -16,13 +16,17 @@
   }
 
   .container-fluid {
-    background-color: aquamarine;
+    background-color:aqua;
   }
 
   .search-section {
-    background-color: chartreuse;
+    background-color:lawngreen;
+    text-align: center;
   }
 
   .main-page {
+    display: flex;
     background-color: magenta;
+    justify-content: center;
+    flex-wrap: wrap;
   }
