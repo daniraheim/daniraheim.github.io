@@ -1,4 +1,8 @@
-    
+$(document).ready(function () {
+    fetchRandomGiphys();
+  });
+
+
 $(document).ready(()=>{
     let apiKey = 'HYVVTegN2siClzVYCBH6LKLKKkoyL8ZH&q';
     $("#submit").click(()=>{
@@ -21,4 +25,22 @@ $(document).ready(()=>{
         })          
        }
 })   
-       
+
+function fetchRandomGiphys() {
+    const apiKey = 'HYVVTegN2siClzVYCBH6LKLKKkoyL8ZH&q'; 
+    const giphyCount = 10; 
+  
+    for (let i = 0; i < giphyCount; i++) {
+      fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}&rating=g`)
+        .then(response => response.json())
+        .then(data => {
+          const imageUrl = data.data.images.fixed_height.url;
+          $("#random-gifs").append(`<img src="${imageUrl}" alt="random GIF" />`);
+        })
+        .catch(error => console.error('Error fetching Giphy:', error));
+    }
+  }
+  
+
+  
+     
