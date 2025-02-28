@@ -28,7 +28,7 @@ $(document).ready(()=>{
 
 function fetchRandomGiphys() {
     const apiKey = 'HYVVTegN2siClzVYCBH6LKLKKkoyL8ZH&q'; 
-    const giphyCount = 10; 
+    const giphyCount = 30; 
   
     for (let i = 0; i < giphyCount; i++) {
       fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}&rating=g`)

@@ -5,6 +5,24 @@
 }
 
 #giphys img {
-    max max-height: 200px;
+    max-height: 200px;
     margin: 5px;
 }
+
+.sigmar-regular {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container-fluid {
+    background-color: aquamarine;
+  }
+
+  .search-section {
+    background-color: chartreuse;
+  }
+
+  .main-page {
+    background-color: magenta;
+  }
