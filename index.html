@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Header with Links-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giphy Browser</title>
@@ -12,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!--Top Header-->
   <div class="search-section">
     <img src="./images/stevehello.gif" alt="Steve waving">
     <img src="./images/giphylogo.png" alt="Giphy Logo">
@@ -20,7 +22,7 @@
     <input id="search" type="search">
     <button id="submit" class="sigmar-regular">Submit</button>
 </div>  
-
+    <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid flex-column">
           <a class="navbar-brand sigmar-regular" href="#">Let's Find the Perfect GIF</a>
@@ -42,16 +44,18 @@
           </div>
         </div>
       </nav>
+    <!--Search GIFs-->  
     <section> 
       <section class="main-page row">
         <div class="col" id="giphys"></div>
       </section>
-
+      <!--Randon GIFs-->
       <section class="main-page row">
        <div class="col" id="random-gifs"></div>
       </section>
   </section> 
+    <!--Script Files-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="giphy.js"></script>
-</body>
+  </body>
 </html>

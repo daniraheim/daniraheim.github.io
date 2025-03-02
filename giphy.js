@@ -2,7 +2,6 @@ $(document).ready(function () {
     fetchRandomGiphys();
   });
 
-
 $(document).ready(()=>{
     let apiKey = 'HYVVTegN2siClzVYCBH6LKLKKkoyL8ZH&q';
     $("#submit").click(()=>{
