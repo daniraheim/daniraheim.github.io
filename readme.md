@@ -1,5 +1,5 @@
 1. My name is Danielle Raheim.  This is my Project2.
 2. I built a webpage that allows users to search for GIFs using a keyword.  Upon lauching the page, random GIFs will load to give the user ideals for search options.  There is a input box that allows users to input a keyword or topic.  Once, that keyword is submitted the search engine displays GIFs pertaining to that keyword.  The user can do this as many times as they would like.  The old GIFs will clear and allow for the new GIFs to load.
 3. Key components used in building this page would include HTML, CSS, Bootstrap, Javascript, and APIs.  The page also includes an embedded Google font.
-4. Users can open the page, check out some random GIFs available.  They can choose a keyword to input into the search bar and see GIFs relating to that topic. Users can, then, select a different topic.
-5. Future plans for the project will include downloadable GIFs, Stickers, and Clips.  The site will include GIF birthday cards.  There will also be a link users can click to download the app.
+4. Users can open the page, check out some random GIFs available.  They can choose a keyword to input into the search bar and see GIFs relating to that topic. Users can check out different GIFs from multiple topics.
+5. Future plans for the project will include downloadable GIFs, Stickers, and Clips.  The site will include GIF birthday cards.  There will also be a link users can click on to download the app.
