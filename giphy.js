@@ -20,21 +20,20 @@ $(document).ready(()=>{
         $.each(giphy, (i, gif)=>{
             let imageUrl = gif.images.fixed_height.url;
             console.log(i, imageUrl);
-            $("#giphys").append(`<img src="${imageUrl}" alt="giphy image"/>`)
+            $("#giphys").append(`<img src="${imageUrl}" alt="giphy image">`)
         })          
        }
 })   
 
 function fetchRandomGiphys() {
     const apiKey = 'HYVVTegN2siClzVYCBH6LKLKKkoyL8ZH&q'; 
-    const giphyCount = 33; 
-  
+    const giphyCount = 35; 
     for (let i = 0; i < giphyCount; i++) {
       fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}&rating=g`)
         .then(response => response.json())
         .then(data => {
           const imageUrl = data.data.images.fixed_height.url;
-          $("#random-gifs").append(`<img src="${imageUrl}" alt="random GIF" />`);
+          $("#random-gifs").append(`<img src="${imageUrl}" alt="random GIF">`);
         })
         .catch(error => console.error('Error fetching Giphy:', error));
     }

@@ -10,9 +10,20 @@ body {
     flex-wrap: wrap;
 }
 
+#random-gifs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 #giphys img {
     max-height: 200px;
     margin: 5px;
+}
+
+#random-gifs img {
+  max-height: 200px;
+  margin: 5px;
 }
 
 .sigmar-regular {
@@ -37,5 +48,4 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 0 auto 
-    
   }
